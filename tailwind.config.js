@@ -64,7 +64,7 @@ export default {
     },
     fontFamily: {
       body: ["Gloria Hallelujah"],
-      special: ['"Roboto"'],
+      special: ["Roboto"],
     },
   },
   plugins: [],
