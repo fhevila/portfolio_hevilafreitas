@@ -24,7 +24,7 @@ const NavbarLinks = () => {
             >
               {link.link}
             </Link>
-            <div className="mx-auto bg-rosaPink w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+            <div className="mx-auto bg-rosaEscuroPink w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
           </li>
         );
       })}
