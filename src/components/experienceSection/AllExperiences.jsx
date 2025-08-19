@@ -9,10 +9,10 @@ const experiences = [
     company: "Brisa e UEMA",
     date: "2025",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Apoio aos alunos.",
+      "Assistência ao professor de Ead.",
+      "Gestão de registros de incidentes.",
+      "Monitoramento de e-mails de suporte.",
     ],
   },
   {
@@ -20,19 +20,17 @@ const experiences = [
     company: "APAE",
     date: "2024",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Suporte nas atividades necessárias.",
     ],
   },
   {
-    job: "Jornada ",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Jornada Marandu UEMA E Vale ",
+    company: "Vale e UEMA",
+    date: "2024-2025",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Desenvolvimento solução de Reconhecimento por Imagem para Identificação de Defeitos nos Trilhos.",
+      "Apresentação de Pitch.",
+      "Escrita de formulários técnicos.",
     ],
   },
 ];
@@ -51,7 +49,7 @@ const AllExperiences = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
               >
-                <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
+                <FaArrowRightLong className="text-6xl text-white lg:block sm:hidden" />
               </motion.div>
             ) : (
               ""
