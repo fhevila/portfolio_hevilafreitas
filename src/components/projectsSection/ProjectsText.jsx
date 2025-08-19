@@ -1,7 +1,7 @@
 const ProjectsText = () => {
   return (
     <div className="flex flex-col items-center mt-[100px]">
-      <h2 className="text-6xl text-rosaEscuro mb-10">Projects</h2>
+      <h2 className="text-6xl text-rosaRosa mb-10">Projects</h2>
       <p className="text-lg text-center">
         Tenho experiência em diversas áreas do desenvolvimento web,
         incluindo a criação de sites responsivos, o desenvolvimento de aplicações full-stack
