@@ -8,7 +8,6 @@ const ContactSocial = () => {
     <div className="flex gap-4">
       <SingleContactSocial link="#" Icon={FaLinkedinIn} />
       <SingleContactSocial link="#" Icon={FiGithub} />
-      <SingleContactSocial link="#" Icon={FaInstagram} />
     </div>
   );
 };
