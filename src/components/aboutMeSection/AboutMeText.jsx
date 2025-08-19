@@ -18,7 +18,7 @@ const AboutMeText = () => {
           duration={500}
           offset={-120}
           to="projects"
-          className="cursor-pointer text-white hover:text-white transition-all duration-500"
+          className="cursor-pointer text-white hover:text-rosaRosa transition-all duration-500"
         >
           My Projects
         </Link>
