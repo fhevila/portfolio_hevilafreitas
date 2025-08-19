@@ -11,7 +11,7 @@ const AboutMeText = () => {
         Além disso, participei da Jornada Marandu em parceria com a Vale, desenvolvendo uam solução de reconhecimento por imagem nos trilhos. 
         Busco sempre aplicar minhas habilidades para resolver problemas reais, com foco em eficiência, inovação e transformação digital.
       </p>
-      <button className="border border-rosaFraco rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-rosaRosa transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+      <button className=" border-rosaFraco rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-rosaRosa transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link
           spy={true}
           smooth={true}
