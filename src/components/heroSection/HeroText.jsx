@@ -28,7 +28,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4"
+        className="text-lg mt-4 font-body text-3x1"
       >
         Graduanda de Engenharia da Computação <br /> com experiência em Analise de Dados e Aprendizado de Máquina.
       </motion.p>

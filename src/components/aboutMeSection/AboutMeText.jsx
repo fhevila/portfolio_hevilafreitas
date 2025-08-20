@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
-      <h2 className="text-6xl text-rosaRosa mb-10">About Me</h2>
-      <p className="font-special">
+      <h2 className="text-7xl text-rosaRosa mb-10">About Me</h2>
+      <p className="font-special text-2xl">
         Olá, Sou Hevila Freitas, estudante de Engenharia da Computação na Universidade Estadual do Maranhão,
         com experiência em análise de dados e machine learning. Tive a oportunidade de trabalhar em projetos inovadores,
         como o Acordo de Cooperação com o Tribunal de Justiça do Maranhão, focado na automação de processos judiciais.

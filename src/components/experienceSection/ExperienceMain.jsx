@@ -23,7 +23,7 @@ const ExperienceMain = () => {
       >
         <ExperienceTop />
       </motion.div>
-      <div className="w-full h-1 mt-4 bg-white lg:block sm:hidden"></div>
+      <div className="w-full h-1 mt-4 bg-verdeEscuro lg:block sm:hidden"></div>
       <AllExperiences />
     </div>
   );

@@ -20,11 +20,11 @@ const NavbarLinks = () => {
               duration={500}
               offset={-130}
               to={link.section}
-              className="cursor-pointer text-white hover:text-rosaPink transition-all duration-500"
+              className="cursor-pointer text-white hover:text-verdeFraco transition-all duration-500"
             >
               {link.link}
             </Link>
-            <div className="mx-auto bg-rosaEscuroPink w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+            <div className="mx-auto bg-verdeFraco w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
           </li>
         );
       })}

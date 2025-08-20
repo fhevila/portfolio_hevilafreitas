@@ -26,11 +26,11 @@ const projects = [
     link: "https://buscasaudema.vercel.app",
   },
   {
-    name: "Plataforma de Eventos UEMA",
-    year: "Junho de 2024",
+    name: "Sistema de Identificação de Defeitos nos Trilhos Ferroviarios da Vale",
+    year: "Maio de 2025",
     align: "left",
-    image: "/images/plataformauema.jpeg",
-    link: "#",
+    image: "/images/vale.jpeg",
+    link: "https://www.uema.br/2025/01/uema-realiza-demoday-da-jornada-marandu-em-parceria-com-a-vale/",
   },
 ];
 

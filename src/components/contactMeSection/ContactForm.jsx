@@ -42,7 +42,7 @@ const ContactForm = () => {
         <input
           type="text"
           name="from_name"
-          placeholder="Your Name"
+          placeholder="Digite seu nome"
           required
           className="h-12 rounded-lg bg-white px-2"
           value={name}
@@ -51,7 +51,7 @@ const ContactForm = () => {
         <input
           type="email"
           name="from_email"
-          placeholder="Your Email"
+          placeholder="Digite seu email"
           required
           className="h-12 rounded-lg bg-white px-2"
           value={email}
@@ -62,7 +62,7 @@ const ContactForm = () => {
           name="message"
           rows="9"
           cols="50"
-          placeholder="Message"
+          placeholder="Digite sua mensagem"
           required
           className=" rounded-lg bg-white p-2"
           value={message}
@@ -72,7 +72,7 @@ const ContactForm = () => {
           type="submit"
           className="w-full rounded-lg border border-verdeFraco text-white h-12 font-bold text-xl hover:bg-verdeFraco bg-rosaRosa transition-all duration-500"
         >
-          Send
+          Enviar
         </button>
       </form>
     </div>
