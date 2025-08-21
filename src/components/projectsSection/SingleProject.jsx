@@ -22,6 +22,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
         >
           {year}
         </h2>
+        {/* Botão VIEW */}
         <a
           href={link}
           target="_blank"

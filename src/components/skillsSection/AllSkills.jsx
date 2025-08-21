@@ -4,11 +4,11 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { FaPython } from "react-icons/fa";
+import { BsFillKanbanFill } from "react-icons/bs";
 
 const skills = [
   {
@@ -24,20 +24,16 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "Python",
+    icon: FaPython,
   },
   {
     skill: "ReactJS",
     icon: FaReact,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "Kanban",
+    icon: BsFillKanbanFill,
   },
 ];
 

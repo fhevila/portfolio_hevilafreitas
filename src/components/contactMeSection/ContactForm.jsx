@@ -6,28 +6,33 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState("");
+
   const handleName = (e) => {
     setName(e.target.value);
   };
+
   const handleEmail = (e) => {
     setEmail(e.target.value);
   };
+
   const handleMessage = (e) => {
     setMessage(e.target.value);
   };
+
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
+      .sendForm("service_b9b7m41", "template_32pdt9i", form.current, {
+        publicKey: "vs6HW4RtWiSw_uLSE",
       })
       .then(
         () => {
           setEmail("");
           setName("");
           setMessage("");
-          setSuccess("Message Sent Succesfully");
+          setSuccess("Message Sent Successfully");
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -44,7 +49,7 @@ const ContactForm = () => {
           name="from_name"
           placeholder="Digite seu nome"
           required
-          className="h-12 rounded-lg bg-white px-2"
+          className="h-12 rounded-lg bg-white px-2 text-black" // Cor do texto preta
           value={name}
           onChange={handleName}
         />
@@ -53,18 +58,17 @@ const ContactForm = () => {
           name="from_email"
           placeholder="Digite seu email"
           required
-          className="h-12 rounded-lg bg-white px-2"
+          className="h-12 rounded-lg bg-white px-2 text-black" // Cor do texto preta
           value={email}
           onChange={handleEmail}
         />
         <textarea
-          type="text"
           name="message"
           rows="9"
           cols="50"
           placeholder="Digite sua mensagem"
           required
-          className=" rounded-lg bg-white p-2"
+          className="rounded-lg bg-white p-2 text-black" // Cor do texto preta
           value={message}
           onChange={handleMessage}
         />
